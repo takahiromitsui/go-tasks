@@ -9,7 +9,7 @@ import (
 	"github.com/takahiromitsui/go-tasks/api/models"
 )
 
-var dummyTasks = []models.Task {
+var DummyTasks = []models.Task {
 	{
 		ID:          uuid.New(),
 		UserID:      uuid.New(),
@@ -43,5 +43,5 @@ var dummyTasks = []models.Task {
 
 
 func GetTasks(c *gin.Context) {
-	c.JSON(http.StatusOK, dummyTasks)
+	c.JSON(http.StatusOK, DummyTasks)
 }
