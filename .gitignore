@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore the local configuration file for LiteIDE
+.idea/
+
+# Ignore the vendor directory
+/vendor/
+
+# Ignore any go project dependencies
+# Assuming you manage dependencies with `go mod`
+/go.sum
+/go.mod
+
+# Ignore binary and source for App Engine app
+/app.yaml
+/appengine-generated/
+
+# End of file
