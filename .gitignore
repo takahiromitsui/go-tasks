@@ -27,3 +27,4 @@
 /appengine-generated/
 
 # End of file
+.env
